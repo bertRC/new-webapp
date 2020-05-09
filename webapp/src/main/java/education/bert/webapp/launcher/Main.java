@@ -1,4 +1,4 @@
-package webapp.launcher;
+package education.bert.webapp.launcher;
 
 import org.apache.catalina.WebResourceRoot;
 import org.apache.catalina.WebResourceSet;

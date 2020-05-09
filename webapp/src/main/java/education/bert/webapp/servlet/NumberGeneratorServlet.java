@@ -1,4 +1,4 @@
-package webapp.servlet;
+package education.bert.webapp.servlet;
 
 import education.bert.myframework.NumberGenerator;
 
