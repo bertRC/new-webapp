@@ -14,7 +14,12 @@ public class TestNumberGenerator {
     }
 
     @Test
-    public void testWithIllegalArgument() {
+    public void testGenerateWithZeroArgument() {
         assertThrows(IllegalArgumentException.class, () -> NumberGenerator.generate(0));
+    }
+
+    @Test
+    public void testGenerateWithHugeArgument() {
+        assertThrows(IllegalArgumentException.class, () -> NumberGenerator.generate(11));
     }
 }
