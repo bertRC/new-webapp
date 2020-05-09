@@ -47,13 +47,13 @@
                         <goals>
                             <goal>check</goal>
                         </goals>
-<!--                        <configuration>-->
+                        <configuration>
 <!--                            <excludes>-->
 <!--                                <exclude>**/*Model.class</exclude>-->
 <!--                                <exclude>**/*Exception.class</exclude>-->
 <!--                                <exclude>**/*Config.class</exclude>-->
 <!--                            </excludes>-->
-<!--                            <rules>-->
+                            <rules>
 <!--                                <rule>-->
 <!--                                    <element>CLASS</element>-->
 <!--                                    <limits>-->
@@ -64,8 +64,8 @@
 <!--                                        </limit>-->
 <!--                                    </limits>-->
 <!--                                </rule>-->
-<!--                            </rules>-->
-<!--                        </configuration>-->
+                            </rules>
+                        </configuration>
                     </execution>
                     <execution>
                         <id>jacoco-report</id>
